@@ -1,0 +1,634 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/************************************************HEADER*********************************************/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header-logo {
+    height: 24px;
+}
+
+#header{
+
+
+    background-color: #312423;
+}
+
+header a {
+    margin-left: 32px;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+
+/****************NEW NEW NEW******************/
+
+.solid-header {
+    position: fixed;
+    background-color: #c69572;
+    transition: background-color 0.5s ease;
+}
+
+
+/************************************************HERO SECTION*********************************************/
+
+#hero-section {
+    background-image: url(./mg/q3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-position-y: -180px;
+}
+
+#hero-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5f535200;
+    height: 100vh;
+}
+
+#hero-logo {
+    width: 256px;
+    border-radius: 25%;
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    width: 64px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    #hero-section h1 {
+        font-size: 3rem;
+    }
+    #hero-logo {
+        width: 196px;
+    }
+}
+
+
+/************************************************INTRO SECTION*********************************************/
+
+#intro-section {
+    background: #eae7de;
+}
+
+/********************************************card section***************************************************/
+.titlu{
+
+margin-top: 30px;
+margin-bottom: -10px;
+    text-align: center;
+}
+#card {
+
+    margin: 5%;
+
+    
+}
+
+#prim {
+background-color: rgba(0, 251, 192, 0.99);
+   
+ 
+
+}
+
+
+
+#s{
+
+color: #68421c;
+
+
+}
+
+
+#prim2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+margin:15px;
+
+ background-color: rgb(255, 0, 98);
+}
+
+/************************************************ABOUT SECTION*********************************************/
+
+#about-section {
+
+    background: #eae7de;
+
+}
+
+#about-bg-1 {
+    background-image: url(../img/07how-to-buy-anew-car-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 480px;
+}
+
+#about-bg-2 {
+    background-image: url(../img/fresh-beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 640px;
+    min-height: 640px;
+}
+
+
+/************************************************MENU SECTION*********************************************/
+
+#menu-section {
+    background: #eae7de;
+}
+
+
+/************************************************CONTACT SECTION*********************************************/
+
+#contact-info-bg-1 {
+    background: linear-gradient(to right, #36313782, #36313782), url(../img/contact-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#contact-info-bg-2 {
+    background-color: #312423a8;
+}
+
+
+/************************************************MAP SECTION*********************************************/
+
+
+/*#map-section {
+    background-image : url(../img/map-demo.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 460px;
+}*/
+
+.googlemap{
+
+    width: 100%;
+}
+#map {
+    height: 480px;
+    width: 100%;
+}
+
+
+/************************************************FOOTER SECTION*********************************************/
+
+footer {
+    background: #312423;
+}
+
+
+/************************************************MOBILE MENU*********************************************/
+
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #312423ed;
+    z-index: 2;
+    display: none;
+}
+
+#mobile-menu a {
+    color: white;
+}
+
+#mobile-menu a:hover {
+    color: rgb(175, 171, 171);
+}
+
+#mobile-menu #close-btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 70%;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+  }
+  
+  .carousel__viewport {
+    position: absolute;
+    top:5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    counter-increment: item;
+  }
+  
+  .carousel__slide:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .carousel__slide:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .carousel__snapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+    
+  }
+
+  #carousel__slide1{
+    background-repeat: no-repeat;
+    background-size:cover;
+background-position: center;
+    background-image: url(./img/passat\ 1.4.jpg);
+    background-position-y: 0px;
+  }
+  
+  #carousel__slide2{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/image2w.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide3{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passa.webp);
+    background-position-y: 0px;
+
+  }
+  #carousel__slide4{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+
+  #carousel__slide5{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide6{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide7{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide8{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide9{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide10{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide11{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide12{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide13{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide14{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide15{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide16{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide17{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide18{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide19{
+    background-repeat: no-repeat;
+    background-size: 100%;
+background-position: center;
+    background-image: url(./img/passat\ 1.4\ spate1.jpg);
+    background-position-y: 0px;
+  }
+  
+  
+  @media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }
+  
+  .carousel:hover .carousel__snapper,
+  .carousel:focus-within .carousel__snapper {
+    animation-name: none;
+  }
+  
+  .carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    background-clip: content-box;
+    border: 1.15rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }
+  
+  .carousel::before,
+  .carousel::after,
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 37.5%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+  }
+  
+  .carousel::before,
+  .carousel__prev {
+    left: -1rem;
+  }
+  
+  .carousel::after,
+  .carousel__next {
+    right: -1rem;
+  }
+  
+  .carousel::before,
+  .carousel::after {
+    content: '';
+    z-index: 1;
+    background-color: rgba(51, 51, 51, 0);
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  .carousel::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+  
+  .carousel::after {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

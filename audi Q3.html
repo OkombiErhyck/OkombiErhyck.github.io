@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadrupo Automobile</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./masini.css">
+
+    <script src="https://kit.fontawesome.com/3fb0bac4eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="mobile-menu">
+        <a id="close-btn" href="#"><img src="img/close-btn.png" alt="close"></a>
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-12 text-center">
+                    <nav>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="#intro-section">about</a>
+                        </div>
+                        <div class="my-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#menu-section">products</a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#contact-info-section">contact</a>
+                        </div>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="#map-section">how to find
+                                    us?</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header class="p-3" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <img id="header-logo" src="img/hader-logo.png" alt="Cadrupo logo">
+                </div>
+                <div class="d-none d-md-block col-8 text-right">
+                    <a class="text-decoration-none text-uppercase" href="./index.html">Home</a>
+                    <a class="text-decoration-none text-uppercase" href="#">products</a>
+                    <a class="text-decoration-none text-uppercase" href="#">contact</a>
+                    <a class="text-decoration-none text-uppercase" href="#">how to find us?</a>
+                </div>
+                <div class="d-md-none col-8 text-right">
+                    <a id="menu-btn" href="#"><img id="menu-icon" src="img/menu.png" alt="menu"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="hero-section" class="text-light">
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide19"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                     
+                </div>
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide5"
+                   class="carousel__next">Go to first slide</a>
+              </li>
+
+              <li id="carousel__slide5"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide4"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide6"
+               class="carousel__next">Go to first slide</a>
+          </li>
+
+          <li id="carousel__slide6"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide5"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide7"
+           class="carousel__next">Go to first slide</a>
+      </li>
+
+      <li id="carousel__slide7"
+      tabindex="0"
+      class="carousel__slide">
+    <div class="carousel__snapper"></div>
+    <a href="#carousel__slide6"
+       class="carousel__prev">Go to previous slide</a>
+    <a href="#carousel__slide8"
+       class="carousel__next">Go to first slide</a>
+  </li>
+
+  <li id="carousel__slide8"
+  tabindex="0"
+  class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide7"
+   class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide9"
+   class="carousel__next">Go to first slide</a>
+</li>
+<li id="carousel__slide9"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide8"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide10"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide10"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide9"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide11"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide11"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide10"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide12"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide12"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide11"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide13"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide13"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide12"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide14"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide14"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide13"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide15"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide15"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide14"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide16"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide16"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide15"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide17"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide17"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide16"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide18"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide18"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide17"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide19"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+
+<li id="carousel__slide19"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide18"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+
+
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide1"
+                     class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide2"
+                     class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide3"
+                     class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide4"
+                     class="carousel__navigation-button">Go to slide 4</a>  
+                </li>
+
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide5"
+                       class="carousel__navigation-button">Go to slide 5</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide6"
+                       class="carousel__navigation-button">Go to slide 6</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide7"
+                       class="carousel__navigation-button">Go to slide 7</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide8"
+                       class="carousel__navigation-button">Go to slide 8</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide9"
+                       class="carousel__navigation-button">Go to slide 9</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide10"
+                       class="carousel__navigation-button">Go to slide 10</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide11"
+                       class="carousel__navigation-button">Go to slide 11</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide12"
+                       class="carousel__navigation-button">Go to slide 12</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide13"
+                       class="carousel__navigation-button">Go to slide 13</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide14"
+                       class="carousel__navigation-button">Go to slide 14</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide15"
+                       class="carousel__navigation-button">Go to slide 15</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide16"
+                       class="carousel__navigation-button">Go to slide 16</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide17"
+                       class="carousel__navigation-button">Go to slide 17</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide18"
+                       class="carousel__navigation-button">Go to slide 18</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide19"
+                       class="carousel__navigation-button">Go to slide 19</a>  
+                  </li>
+              </ol>
+            </aside>
+          </section>
+    
+    </div>
+</div>
+</div>
+                    
+                  
+       
+    </section>
+
+
+   
+
+    <section id="prim2" class="d-block card border-0 mb-5" style="font-size:1.2em;">
+        <div class="card-body p-2 card border-0 shadow-sm mb-3">
+            <div class="row">
+
+
+                <div  class="col-sm-12">
+                    <div class="pt-1 pr-2 pl-2">
+
+                        <div class="mb-2">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h2 class="h5 mt-2 pl-2 pr-2">
+                                        Volkswagen Passat 1.4                                </h2>
+                                </div>
+                                <div class="col-lg-4 mt-1">
+                                    <h5>  <span class="badge badge-dark badge-primary ml-1" style="float: right;"> Livrare Imediata</span></h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">id</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">ST8011</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">an</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">2019</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">rulaj</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">60.152 km</div>
+                                    </div>
+                                                                            <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.85em; color: #636363;">cilindree</div>
+
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">1591cc</div>
+                                        </div>
+                                    
+                                                                            <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.85em; color: #636363;">norma euro</div>
+
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">euro 6</div>
+                                        </div>
+                                                                        <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">culoare</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">alb</div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">transmisie</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">automata</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-7 col-7 text-left" style="font-size:0.80em; color: #636363;">tractiune</div>
+
+                                        <div class="col-lg-5 col-5 text-right" style="font-size:0.8em;font-weight: 500;">4x4</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-5 col-7 text-left" style="font-size:0.80em; color: #636363;">combustibil</div>
+
+                                        <div class="col-lg-7 col-5 text-right" style="font-size:0.8em;font-weight: 500;">benzina </div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #636363;">putere</div>
+
+                                        <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">177 cp</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-5 col-5 text-left" style="font-size:0.80em; color: #636363;">caroserie</div>
+
+                                        <div class="col-lg-7 col-7 text-right" style="font-size:0.8em;font-weight: 500;">SUV</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-3 col-3 text-left" style="font-size:0.80em; color: #636363;">VIN</div>
+
+                                        <div class="col-lg-9 col-9 text-right" style="font-size:0.80em;font-weight: 500;">TMAJ3812HKJ869183</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="font-size: 1.2em; font-weight: bold;">
+
+                                <!--
+                                <div class="col-lg-6">
+                                    <div class="text-right pr-1">
+                                        <a class="btn btn-sm btn-soft-primary btn-wide transition-3d-hover" href="/public/cars/det/1">Detalii Masina</a>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <section id="contact-info-section">
+        <div class="container-fluid p-0 text-light">
+            <div class="row no-gutters" id="contact-info-bg-1">
+                <div class="col-sm-5 offset-sm-1 p-5">
+                    <h2>YOU ARE WELCOME!</h2>
+                    <p>COME ON IN!</p>
+                    <br>
+                    <h4>WEEKDAYS</h4>
+                    <p>08PM -12AM</p>
+                    <br>
+                    <h4>WEEKENDS</h4>
+                    <p>12 PM – 02 AM</p>
+                </div>
+                <div class="col-sm-6 p-5" id="contact-info-bg-2">
+                    <h2>CONTACT</h2>
+                    <br>
+                    <h4>PHONE</h4>
+                    <p>+(000) 111 222 333</p>
+                    <br>
+                    <h4>MAIL</h4>
+                    <p>address@domain.com</p>
+                    <br>
+                    <h4>ADDRESS</h4>
+                    <p>543 TN, doula street NY, New York</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="map-section">
+        <div id="map"> <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2744.140419946354!2d24.535506!3d46.544909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57c84a022c4588e7!2sPacovis%20Rom%C3%A2nia%20S.R.L.!5e0!3m2!1sen!2sus!4v1669635135627!5m2!1sen!2sus" width="1263" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container-fluid py-3 text-light">
+            <div class="row">
+                <div class="col-md-5 offset-sm-1 text-left align-self-center">
+                    Coffee Shop | © 2020 All rights reserved
+                </div>
+                <div class="col-md-5 text-right">
+                    <a href="#"><img src="img/facebook-icon.png" alt="facebook icon"></a>
+                    <a href="#" class="mx-3"><img src="img/instagram-icon.png" alt="instagram icon"></a>
+                    <a href="#" class="mr-3"><img src="img/twitter-icon.png" alt="twitter icon"></a>
+                    <a href="#"><img src="img/phone-icon.png" alt="phone icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/leaflet.js"></script>
+
+    <script>
+        window.addEventListener("load", function() {
+
+
+            let menuBtn = document.getElementById("menu-btn");
+            let mobileMenu = document.getElementById("mobile-menu");
+            let closeBtn = document.getElementById("close-btn");
+
+            menuBtn.addEventListener("click", function() {
+
+                if (mobileMenu.style.display = "none") {
+                    mobileMenu.style.display = "block";
+                }
+
+            });
+
+            closeBtn.addEventListener("click", function() {
+                if (mobileMenu.style.display = "block") {
+                    mobileMenu.style.display = "none";
+                }
+            });
+
+
+
+            ///jQuery alternativa za otvaranje zatvaranje menija
+
+            /*$("#menu-btn, #close-btn").click(function(){
+                $("#mobile-menu").toggle();
+            });*/
+
+
+
+            ////za menu
+
+            let heroSection = document.getElementById("hero-section");
+            let heroSectionHeight = heroSection.clientHeight;
+
+            let header = document.getElementById("header");
+
+
+            document.addEventListener("scroll", function() {
+
+                if (document.documentElement.scrollTop > heroSectionHeight) {
+
+                    if (!header.classList.contains("solid-header")) {
+                        header.classList.add("solid-header");
+                    }
+
+                } else {
+
+                    if (header.classList.contains("solid-header")) {
+                        header.classList.remove("solid-header");
+                    }
+                }
+            });
+
+
+
+            ///jQuery alternativa za menu
+
+            /*$(document).scroll(function () {
+
+                let header = $("#header");
+
+                if ($(this).scrollTop() > $("#hero-section").height()) {
+
+                    if(!header.hasClass("solid-header")) {
+                        $("#header").addClass("solid-header");
+                    }
+                } else {
+                    if (header.hasClass("solid-header")) {
+                        $("#header").removeClass("solid-header");
+                    }
+                }
+
+            });*/
+
+
+
+            /////za mape
+
+            
+
+        });
+    </script>
+
+</body>
+
+</html>
