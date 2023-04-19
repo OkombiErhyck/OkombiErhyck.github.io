@@ -1,0 +1,138 @@
+@font-face {
+  font-family: disney;
+  src: url(./NewWaltDisneyFontRegular-BPen.ttf);
+}
+
+
+
+
+
+
+
+
+  #h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 530px;
+    font-family: disney;
+      }
+
+
+
+
+#s3{
+
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: large;
+    
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #312423;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    color: #f66803;
+    opacity: 1;
+  }
+  
+  .container1 {
+    border-radius: 5px;
+    background: #eae7de;
+    padding: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 300px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+
+
+      #f3{
+          padding: 20px;
+          margin-left: 80px;
+      }
+
+      
+
+      #p1{
+
+        margin-top: -20px;
+        
+              }
+
+      #g1{
+        height: 430px;
+        background-color: rgb(41, 41, 41);
+    }
+
+    #k1{
+       height: 80px;
+      background-color: black;
+
+  }
+
+  #foot{
+
+    margin-top: 5px;
+  }
+
+
+  

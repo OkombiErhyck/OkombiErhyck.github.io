@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadrupo Automobile</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./car2.css">
+
+    <script src="https://kit.fontawesome.com/3fb0bac4eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="mobile-menu">
+        <a id="close-btn" href="#"><img src="img/close-btn.png" alt="close"></a>
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-12 text-center">
+                    <nav>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="index.html">home</a>
+                        </div>
+                        <div class="my-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#menu-section">products</a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#contact-info-section">contact</a>
+                        </div>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="#map-section">how to find
+                                    us?</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header class="p-3" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <img id="header-logo" src="img/hader-logo.png" alt="Cadrupo logo">
+                </div>
+                <div id="tt1" class="d-none d-md-block col-8 text-right">
+                    <a class="text-decoration-none text-uppercase" href="./index.html">Home</a>
+                    <a class="text-decoration-none text-uppercase" href="#">products</a>
+                    <a class="text-decoration-none text-uppercase" href="#">contact</a>
+                    <a class="text-decoration-none text-uppercase" href="#">how to find us?</a>
+                </div>
+                <div class="d-md-none col-8 text-right">
+                    <a id="menu-btn" href="#"><img id="menu-icon" src="img/menu (3).png" alt="menu"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="hero-section" class="text-light">
+        <div id="carousel" class="carousel" aria-label="Gallery">
+            <ol id="viewp" class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide19"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                     
+                </div>
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide5"
+                   class="carousel__next">Go to first slide</a>
+              </li>
+
+              <li id="carousel__slide5"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide4"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide6"
+               class="carousel__next">Go to first slide</a>
+          </li>
+
+          <li id="carousel__slide6"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide5"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide7"
+           class="carousel__next">Go to first slide</a>
+      </li>
+
+      <li id="carousel__slide7"
+      tabindex="0"
+      class="carousel__slide">
+    <div class="carousel__snapper"></div>
+    <a href="#carousel__slide6"
+       class="carousel__prev">Go to previous slide</a>
+    <a href="#carousel__slide8"
+       class="carousel__next">Go to first slide</a>
+  </li>
+
+  <li id="carousel__slide8"
+  tabindex="0"
+  class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide7"
+   class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide9"
+   class="carousel__next">Go to first slide</a>
+</li>
+<li id="carousel__slide9"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide8"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide10"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide10"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide9"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide11"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide11"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide10"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide12"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide12"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide11"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide13"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide13"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide12"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide14"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide14"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide13"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide15"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+<li id="carousel__slide15"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide14"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide16"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+
+
+
+<li id="carousel__slide16"
+tabindex="0"
+class="carousel__slide">
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide15"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide"
+ class="carousel__next">Go to first slide</a>
+</li>
+
+
+
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide1"
+                     class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide2"
+                     class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide3"
+                     class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide4"
+                     class="carousel__navigation-button">Go to slide 4</a>  
+                </li>
+
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide5"
+                       class="carousel__navigation-button">Go to slide 5</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide6"
+                       class="carousel__navigation-button">Go to slide 6</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide7"
+                       class="carousel__navigation-button">Go to slide 7</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide8"
+                       class="carousel__navigation-button">Go to slide 8</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide9"
+                       class="carousel__navigation-button">Go to slide 9</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide10"
+                       class="carousel__navigation-button">Go to slide 10</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide11"
+                       class="carousel__navigation-button">Go to slide 11</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide12"
+                       class="carousel__navigation-button">Go to slide 12</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide13"
+                       class="carousel__navigation-button">Go to slide 13</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide14"
+                       class="carousel__navigation-button">Go to slide 14</a>  
+                  </li>
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide15"
+                       class="carousel__navigation-button">Go to slide 15</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide16"
+                       class="carousel__navigation-button">Go to slide 16</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide17"
+                       class="carousel__navigation-button">Go to slide 17</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide18"
+                       class="carousel__navigation-button">Go to slide 18</a>  
+                  </li>
+
+
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide19"
+                       class="carousel__navigation-button">Go to slide 19</a>  
+                  </li>
+              </ol>
+              
+            </aside>
+        </div>
+    
+    </div>
+</div>
+</div>
+       
+    </section>
+
+
+
+
+    <section id="carname">
+
+        <div   class="position-relative bg-white text-center z-index-2 mx-lg-auto menu_det" >
+            <div id="price"  class="container"> <h1 class="h_det" style="color:rgb(255, 255, 255); font-weight: bold; text-align: left; margin-bottom:0px;">Mercedes-Benz GLC 300</h1></div>
+            <ul id="price2" class="nav nav-classic  container lazyload" id="pills-tab" role="tablist" style="border:none;">
+    <!--
+                <li class="nav-item">
+                    <a class="nav-link font-weight-medium  " >
+                        <div class="d-md-flex justify-content-md-center align-items-md-center">
+    
+                           Mercedes-Benz E220
+                        </div>
+                    </a>
+                </li>
+    -->
+                
+    
+                <li class="nav-item">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-one-tabz" data-toggle="pill" href="#exterior" role="tab" aria-controls="pills-one" aria-selected="true">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                            Exterior
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a     class="a_menu_det nav-link font-weight-medium" id="pills-two-tabz"  data-url="@Url.Action("relatedproducts", new { Model.Product.Id})" data-toggle="pill" href="#interior1" role="tab" aria-controls="pills-two" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);" >
+    
+                            Interior
+                        </div>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-three-tab" data-toggle="pill" href="#porbagaj" role="tab" aria-controls="pills-three" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                           Optiuni
+                        </div>
+                    </a>
+                </li>
+    
+    
+                            <li class="nav-item ">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-four-tab" data-toggle="pill" href="#video" role="tab" aria-controls="pills-four" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                           Video
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="nav-item d-none d-sm-block">
+                    <a class="js-go-to a_menu_det nav-link font-weight-medium"  href="javascript:;"
+                       data-target="#info2"
+                       data-type="static"  >
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                            Detalii tehnice
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Nav Classic -->
+    <br>
+        <!-- Icon Blocks Section -->
+        <div class="price_menu">
+        <div class="container space-1 " id="info2" >
+            <div class="row ">
+    
+                <div class="col-lg-4 col-sm-6  d-none  d-sm-block">
+               <button id="back" onclick="window.history.go(-1)"  class="btn btn-soft-dark btn-wide transition-3d-hover" style="cursor: pointer;" >Inapoi la lista</button>
+    
+                   
+    
+    
+                </div>
+    
+                <div  class=" col-lg-4 col-sm-12 text-center">
+    
+                                    <h4 class="h4" style="line-height: 1em;">
+                        Pret NET:                                                      40.990 €
+                        <br><span style="font-size: 0.8em;">Pret BRUT:  48.778 € </span>                                         <br><small style="font-size:0.56em;">Omologare R.A.R.*: 200€ + TVA</small>                                                                                                     
+    
+                         <br><small style="font-size:0.56em;">TVA deductibil pe factura</small> 
+                    
+    
+                    </h4>
+                                    
+                    
+     
+    
+    
+                
+                </div>
+    
+                <div class=" col-6 col-lg-4 col-sm-6 d-block  d-sm-none  no-padding-right">
+                    <button  id="back" class="btn btn-soft-dark btn-wide transition-3d-hover" style="cursor: pointer;" onclick="goBack()">Inapoi la lista</button>
+                    <script>
+                        function goBack() {
+                            window.history.go(-1);
+                        }
+                    </script>
+                </div>
+    
+    
+    
+    
+                <div class="col-sm-6 col-lg-4 col-xs-6 col-6 text-right no-padding-left">
+                                    <form method="post">
+                        <input type="hidden" name="id_car_garaj" value="8376">
+                    <input id="back1" type="submit" value="Adauga la Favorite" name="add_garaj"  class="btn btn btn-wide transition-3d-hover" href="#" title="In garaj poti compara mai multe masini si alege masina potrivita!">
+                    </form>
+                                    <div class="row mt-3 d-none  d-xl-block">
+    
+                        <div class="col-lg-6 col-xs-12" style="width: 50%;">
+                            <b style="  float: left;padding-left:6px;">STOC INTERN <small style="font-size: 70%;float: right;margin-top: -20px;"><br>(livrare imediata)</small>  </b>
+                        </div>
+                        <div class="col-lg-5 col-xs-12"  style="width: 40%;float: right;" >
+                            <a href="tel:0754251033"  onclick="count_calls(4,1)"><b>0754 25 10 33</b></a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div  class="row mt-3 d-block d-sm-none pb-2">
+    
+                <div class="col-lg-6 col-xs-12" >
+                    <b style="width: 150px; float: left;padding-left:6px;">STOC INTERN <small style="font-size: 70%;float: left;margin-top: -20px;"><br>(livrare imediata)</small>  </b>
+                </div>
+                <div class="col-lg-6 col-xs-12"  >
+                    <a href="tel:0754251033"  onclick="count_calls(4,1)" style="float:right;"><b>0754 25 10 33</b></a>
+                </div>
+            </div>
+    
+    
+            
+        </div>
+        <!-- End Icon Blocks Section -->
+        </div>
+    
+    </section>
+    
+
+    <div  class="container mt-5">
+        <div class="row">
+    
+            <div class="col-lg-7">
+    
+        <article class="d-block card border-0 mb-5" style="font-size:1.2em; color: #ffffff;">
+            <div id="bgc3" class="card-body p-2 card border-0 shadow-sm mb-3">
+                <div class="row">
+    
+    
+                    <div class="col-sm-12">
+                        <div class="pt-1 pr-2 pl-2">
+    
+                            <div class="mb-2">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="h5 mt-2 pl-2 pr-2">
+                                            Mercedes-Benz GLC                                    </h2>
+                                    </div>
+                                    <div class="col-lg-4 mt-1">
+                                        <h5>  <span class="badge badge-dark badge-primary ml-1" style="float: right;"> Livrare Imediata</span></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">id</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">ST8376</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">an</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">2019</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">rulaj</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">109.300 km</div>
+                                        </div>
+                                                                                <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left" style="font-size:0.85em; color: #f1f1f1;">cilindree</div>
+    
+                                                <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">1950cc</div>
+                                            </div>
+                                        
+                                                                                <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left" style="font-size:0.85em; color: #f1f1f1;">norma euro</div>
+    
+                                                <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">euro 6</div>
+                                            </div>
+                                                                            <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">culoare</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">alb</div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="col-lg-6">
+    
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">transmisie</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">automata</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-7 col-7 text-left" style="font-size:0.80em; color: #f1f1f1;">tractiune</div>
+    
+                                            <div class="col-lg-5 col-5 text-right" style="font-size:0.8em;font-weight: 500;">4x4</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-5 col-7 text-left" style="font-size:0.80em; color: #f1f1f1;">combustibil</div>
+    
+                                            <div class="col-lg-7 col-5 text-right" style="font-size:0.8em;font-weight: 500;">motorina </div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left" style="font-size:0.80em; color: #f1f1f1;">putere</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">245 cp</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-5 col-5 text-left" style="font-size:0.80em; color: #f1f1f1;">caroserie</div>
+    
+                                            <div class="col-lg-7 col-7 text-right" style="font-size:0.8em;font-weight: 500;">SUV</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-3 col-3 text-left" style="font-size:0.80em; color: #f1f1f1;">VIN</div>
+    
+                                            <div class="col-lg-9 col-9 text-right" style="font-size:0.80em;font-weight: 500;">WDC2539191F742810</div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="row"  style="font-size: 1.2em; font-weight: bold;">
+    
+                                    <!--
+                                    <div class="col-lg-6">
+                                        <div class="text-right pr-1">
+                                            <a class="btn btn-sm btn-soft-primary btn-wide transition-3d-hover" href="/public/cars/det/1">Detalii Masina</a>
+                                        </div>
+                                    </div>
+                                    -->
+                                </div>
+    
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+                            <article id="bgc" class="d-block card border-0 mb-7 " style="font-size:1.2em;">
+                    <div id="bgc" class="card-body p-2 card border-0 shadow-sm mb-3  d-none d-sm-block">
+                        <div class="row pt-3 pb-3">
+    
+    
+                            <div  class="col-sm-4">
+                                <div class="media align-items-center">
+                                    <img class="u-header__promo-icon" src="img/warranty.png" alt="SVG">
+                                    <div class="media-body">
+                              <span class="det_promo-title">
+                                  Garantie&nbsp;Extinsa<small><br>2 ani/50.000km</small>
+    
+                              </span>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="media align-items-center">
+                                    <img class="u-header__promo-icon" src="img/repair-tool.png" alt="SVG">
+                                    <div class="media-body">
+                              <span class="det_promo-title">
+                             Revizie Gratuita
+    
+                              </span>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="media align-items-center">
+                                    <img class="u-header__promo-icon" src="./img/fast-delivery.png" alt="SVG">
+                                    <div class="media-body">
+                              <span class="det_promo-title">
+                                Livrare Gratuita<br>
+                       
+                              </span>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="col-sm-3">
+                                <div class="media align-items-center">
+                                    <img class="u-header__promo-icon" src="/assets/public/svg/icons/ico2.png" style="width: 35px;" alt="SVG">
+                                    <div class="media-body">
+                              <span class="det_promo-title">
+                              Asistenta Rutiera
+    
+                              </span>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </article>
+                
+    
+                <article class="d-block card border-0 mb-7" style="font-size:1.2em;">
+                    <div id="bgc2" class="card-body p-2 card border-0 shadow-sm mb-3">
+                        <div class="row">
+    
+    
+                            <div class="col-sm-12">
+                                <div class="pt-1 pr-2 pl-2">
+    
+                                    <div class="mb-2">
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                
+                                            </div>
+    
+                                        </div>
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                              <div class="card-header" id="headingOne">
+                                                <h2 class="0">
+                                                  <button id="more" class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Vizualizeaza Dotarile Aici
+                                                  </button>
+                                                </h2>
+                                              </div>
+                                          
+                                              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                        <div class="row" style="font-size:0.8em; color: #000000;">
+                                            <!-- Listing - List of Details -->
+                                            <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" style="display:none;" readonly checked>
+                                            <ul class="col-sm-6 pl-5" style="list-style:none;">
+                                                                                                                                                                                                <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">asistenta la franare abs</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">controlul stabilitatii esp</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">servodirectie</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">airbag-uri frontale</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">airbag-uri laterale </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">comenzi volan</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">volan din piele multifunctional</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">volan sport din piele</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">faruri cu tehnologie led </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">lumini de zi cu led</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">asistenta faza lunga</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">lumini ambientale</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">keyless go</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">head-up display</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">lane assist</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">suspensie reglabila </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">camera marsarier </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">senzori de parcare spate</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1"> senzori de parcare fata</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">geamuri electrice fata </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">oglinzi electrice</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" readonly checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">oglinzi incalzite</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                            </ul>
+    
+                                            <ul class="col-sm-6 pl-5 g-font-weight-600 g-pl-30 mb-0" style="list-style:none;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">oglinzi rabatabile</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">geamuri fumurii </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">tapiterie din piele </label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">dublu climatronic</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">camere 360</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">senzori presiune pneuri</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1"> geamuri electrice  fata - spate</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">alcantara</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">scaune incalzite fata</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1"> scaune incalzite fata - spate</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">cotiera fata</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">cotiere spate</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">radio + cd + mp3</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">usb</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">navigatie gps + harta eu + ro</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">pilot automat (limitator viteza)</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">sistem audio professional</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">start stop</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">isofix</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">scaune sport</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">sistem avertizare oboseala</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">recunoasterea semnelor de circulatie</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">apples carplay</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">android auto</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">ecran tuch screen</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">scaun pasager ajustabil electric</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">scaun sofer ajustabil electric</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">suport lombar electric scaun pasager</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">pornire motor keyless</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">adaptive cruise control predictive</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">pilot automat adaptiv (disctronic)</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">avertizare unghi mort</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">asistenta schimbare banda</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">controlul distantei</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">asistenta in panta</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">conducere autonoma</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">faruri autoadaptive</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                    <li class="mb-3">
+                                                            <div class="custom-control custom-checkbox custom-control-inline">
+                                                                <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" checked>
+                                                                <label class="custom-control-label" for="customCheckboxInline1">lumini de zi</label>
+                                                            </div>
+                                                        </li>
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                            </ul>
+                                        </div>
+                                    </div>
+                                  </div>
+                                            <!-- End Listing - List of Details -->
+                                        </div>
+    
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+    
+    
+    
+                <article class="  card border-0 mb-7   d-none d-sm-block" style="font-size:1.2em; color: #ffffff;">
+                    <div id="bgc2" class="card-body p-2 card border-0 shadow-sm mb-3">
+                        <div class="row">
+    
+    
+                            <div class="col-sm-12">
+                                <div class="pt-1 pr-2 pl-2">
+    
+                                    <div class="mb-2">
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                <h2 class="h5 mt-2 pl-2 pr-2">
+                                                   Descriere
+                                                </h2>
+                                            </div>
+    
+                                        </div>
+    
+                                        <div class="row  pl-2 pr-2" style="font-size:0.8em;">
+                                            <div class="col-lg-12">
+                                                                                         <ul style="list-style: none; padding-left:0px;">
+                                                <li><i class="fas fa-check"></i> Masina pe STOC ! Livrare imediata din park-ul nostru. Alege unul din showroomurile noastre din tara si ti-o livram in maxim 24h.</li>
+                                                 <li><i class="fas fa-check"></i> Posibilitate leasing pentru persoane juridice prin BT LEASING cu dobanda preferentiala si aprobare rapida 24h.</li>
+                                                 <li><i class="fas fa-check"></i>️ Posibilitate credit auto pentru persoane fizice si contract de munca extern cu dobanda preferentiala si aprobare rapida 24h</li>
+                                             </ul>
+                                                /// Mercedes-Benz GLC 300 1950 cc 245 C.P Automata 2019 ///
+    
+    <br>
+    <br>
+    Posibilitate leasing pentru persoane juridice prin BT LEASING cu dobanda preferentiala si aprobare rapida 24h<br>
+     <br>
+     Posibilitate credit auto pentru persoane fizice si contract de munca extern cu dobanda preferentiala si aprobare rapida 24h
+    <br><br>
+    Serie Sasiu :  WDC2539191F742810 <br>
+    
+    
+    ELIBERAM FISCAL LA FACTURARE CU SERIA DE SASIU AL MASINII<br>              <br>
+                                                *In baza seriei de șasiu afișata de către noi puteți verifica exact opțiunile mașinii direct la reprezentanta mărcii<br>
+                                                *Descrierea autovehicului este strict informativa, pot exista greșeli umane de tipar (optiuni, performanța a motorului, capacitate cilindrica, transmisie etc)<br>
+                                                *In caz de nelămuriri cu privire la opțiunile prezentate ne puteți contacta telefonic pentru detalii suplimentare<br>
+                                            </div>
+                                            </div>
+    
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+    
+    
+    
+            </div>
+            <div class="col-lg-5">
+    
+    
+    
+    
+                <!--   <div class="container calc"> -->
+                      <div class=" calc">
+                        <div class="loan-calculator">
+                            <div class="top">
+                              <h2>Calculator de Credit</h2>
+                      
+                              <form action="#">
+                                <div class="group">
+                                  <div class="title">Suma</div>
+                                  <input type="text" value="48778" class="loan-amount" />
+                                </div>
+                      
+                                <div class="group">
+                                  <div class="title">Dobanda</div>
+                                  <input type="text" value="8.5" class="interest-rate" />
+                                </div>
+                      
+                                <div class="group">
+                                  <div class="title">Rate</div>
+                                  <input type="text" value="60" class="loan-tenure" />
+                                </div>
+                              </form>
+                            </div>
+                      
+                            <div class="result">
+                              <div class="left">
+                                <div class="loan-emi">
+                                  <h3>Plata Lunara</h3>
+                                  <div class="value">123</div>
+                                </div>
+                      
+                                <div class="total-interest">
+                                  <h3>Total Dobanda</h3>
+                                  <div class="value">1234</div>
+                                </div>
+                      
+                                <div class="total-amount">
+                                  <h3>Total de Plata</h3>
+                                  <div class="value">12345</div>
+                                </div>
+                      
+                                <button class="calculate-btn">Calculate</button>
+                              </div>
+                      
+                              <div class="right">
+                                <canvas id="myChart" width="400" height="400"></canvas>
+                              </div>
+                            </div>
+                          </div>
+                                                            </div>
+    
+    
+   
+        <div class="   " >
+    
+            <label class=" "  style="font-size:0.8em;"><br>
+                *Acest simulator are caracter informativ. Pot exista alte costuri aditionale.
+            </label>
+        </div>
+    
+    
+                                                                
+    
+    
+    
+    
+            <article class="card border-0 mb-7 d-block d-sm-none" style="font-size:1.2em; color: #ffffff;">
+                <div id="bgc2" class="card-body p-2 card border-0 shadow-sm mb-3">
+                    <div class="row">
+    
+    
+                        <div class="col-sm-12">
+                            <div class="pt-1 pr-2 pl-2">
+    
+                                <div class="mb-2">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <h2 class="h5 mt-2 pl-2 pr-2">
+                                               Descriere
+                                            </h2>
+                                        </div>
+    
+                                    </div>
+    
+                                    <div class="row  pl-2 pr-2" style="font-size:0.8em;">
+                                        <div class="col-lg-12">
+                                                                                    <ul style="list-style: none; padding-left:0px;">
+                                                <li><i class="fas fa-check"></i> Masina pe STOC ! Livrare imediata din park-ul nostru. Alege unul din showroomurile noastre din tara si ti-o livram in maxim 24h.</li>
+                                                <li><i class="fas fa-check"></i> Posibilitate leasing pentru persoane juridice prin BT LEASING cu dobanda preferentiala si aprobare rapida 24h.</li>
+                                                <li><i class="fas fa-check"></i>️ Posibilitate credit auto pentru persoane fizice si contract de munca extern cu dobanda preferentiala si aprobare rapida 24h</li>
+                                            </ul>
+                                            /// Mercedes-Benz GLC 300 1950 cc 245 C.P Automata 2019 ///
+    
+    <br>
+    <br>
+    Posibilitate leasing pentru persoane juridice prin BT LEASING cu dobanda preferentiala si aprobare rapida 24h<br>
+     <br>
+     Posibilitate credit auto pentru persoane fizice si contract de munca extern cu dobanda preferentiala si aprobare rapida 24h
+    <br><br>
+    Serie Sasiu :  WDC2539191F742810 <br>
+    
+    
+    ELIBERAM FISCAL LA FACTURARE CU SERIA DE SASIU AL MASINII<br>
+                                            <br>
+                                            *In baza seriei de șasiu afișata de către noi puteți verifica exact opțiunile mașinii direct la reprezentanta mărcii<br>
+                                            *Descrierea autovehicului este strict informativa, pot exista greșeli umane de tipar (optiuni, performanța a motorului, capacitate cilindrica, transmisie etc)<br>
+                                            *In caz de nelămuriri cu privire la opțiunile prezentate ne puteți contacta telefonic pentru detalii suplimentare<br>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+    
+    
+                <div id="sidecars" class=" p-0 mt-4">
+                    <div class="g-bg-white g-pa-15">
+                      <!--  <h2 class="h6 g-font-weight-600 mb-4">Alte Masini</h2> -->
+                        <h6 style="text-align: center">Alti clienti au fost interesati de:</h6>
+    
+                                               
+                                <!-- Popular Properties - Products -->
+                                <div class="g-brd-bottom g-brd-gray-light-v3 g-pb-30"  style="cursor: pointer" onclick="location.href = '/CUPRA-Ateca-2021-IDWK8539/';">
+                                    <div class="card-body p-0 card border-0 shadow-sm mb-5">
+                                        <div class="position-relative" style="overflow:hidden;">
+                                                                        <a href="audi Q3.html">
+                                                                                <img class="card-img-top"  src="./img/image2.jpeg" alt="Skoda Octavia image"></a>
+                                            
+                                        </div>
+                                        <div class="p-4">
+                                            <h4 class="h6 pl-2 pr-2" style="font-size:1em;">
+                                                <a href="audi Q3.html">Skoda Fabia </a>
+                                            </h4>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-calendar-alt  mr-2" style="color: #77838f; width: 16px; text-align: center;"></span> an</div>
+                        
+                                                <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">2016</div>
+                                            </div>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-road  mr-2" style="color: #77838f; width: 16px;"></span> rulaj</div>
+                        
+                                                <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">144 197 km</div>
+                                            </div>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-box  mr-2" style="color: #77838f; width: 16px;"></span> cilindree</div>
+                        
+                                                <div class="col-lg-6 col-6 text-right" style="font-weight: 500;">1 395cc</div>
+                                            </div>
+                        
+                        
+                        
+                        
+                                                                            <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold; border-top:1px solid #d4d4d4; margin-top:10px; padding-top:10px; padding-bottom: 10px;">
+                        
+                                                                                            <div class="col-lg-7 col-7">Pret Net</div>
+                                                                                        
+                        
+                                                    <div class="col-lg-5 col-5 text-right">14 875 Euro</div>
+                                                </div>
+                                                <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold;  margin-top:8px; padding-top:10px; padding-bottom: 10px;">
+                        
+                                                        <div class="col-lg-7 col-7"> </div>
+                        
+                        
+                        
+                        
+                                                    <div class="col-lg-5 col-5 text-right"> </div>
+                                                </div>
+                        
+                                            
+                        
+                        
+                        
+                        
+                        
+                                            <div class="text-center">
+                                                <a id="btn1" class="btn btn-sm btn-soft-secondary btn-wide transition-3d-hover" href="audi Q3.html">Detalii Masina</a>
+                                            </div>
+                                        </div>
+                                        <!-- End House Items -->
+                                    </div>
+                                    <div class="card-body p-0 card border-0 shadow-sm mb-5">
+                                        <div class="position-relative" style="overflow:hidden;">
+                                                                        <a href="/volvo-xc-90-2018-automata-IDWK8077/">
+                                                                                <img class="card-img-top"  src="./img/mercedes bens e350.jpg" alt="Volvo XC-90 image"></a>
+                                            
+                                        </div>
+                                        <div class="p-4">
+                                            <h4 class="h6 pl-2 pr-2" style="font-size:1em;">
+                                                <a href="/volvo-xc-90-2018-automata-IDWK8077/">Mercedes Benz E350 4Matic </a>
+                                            </h4>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-calendar-alt  mr-2" style="color: #77838f; width: 16px; text-align: center;"></span> an</div>
+                        
+                                                <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">2011</div>
+                                            </div>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-road  mr-2" style="color: #77838f; width: 16px;"></span> rulaj</div>
+                        
+                                                <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">325 124 km</div>
+                                            </div>
+                                            <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-box  mr-2" style="color: #77838f; width: 16px;"></span> cilindree</div>
+                        
+                                                <div class="col-lg-6 col-6 text-right" style="font-weight: 500;">2 987cc</div>
+                                            </div>
+                        
+                        
+                        
+                        
+                                                                            <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold; border-top:1px solid #d4d4d4; margin-top:10px; padding-top:10px; padding-bottom: 10px;">
+                        
+                                                                                            <div class="col-lg-7 col-7">Pret Net</div>
+                                                                                        
+                        
+                                                    <div class="col-lg-5 col-5 text-right">12 500 Euro</div>
+                                                </div>
+                                                <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold;  margin-top:8px; padding-top:10px; padding-bottom: 10px;">
+                        
+                                                        <div class="col-lg-7 col-7"> </div>
+                        
+                        
+                        
+                        
+                                                    <div class="col-lg-5 col-5 text-right"> </div>
+                                                </div>
+                        
+                        
+                        
+                                            <div class="text-center">
+                                                <a id="btn1" class="btn btn-sm btn-soft-secondary btn-wide transition-3d-hover" href="/volvo-xc-90-2018-automata-IDWK8077/">Detalii Masina</a>
+                                            </div>
+                                        </div>
+                                        <!-- End House Items -->
+                                    </div>
+                        
+                                                   
+                                   
+
+
+                            <div class="card-body p-0 card border-0 shadow-sm mb-5">
+                                <div class="position-relative" style="overflow:hidden;">
+                                                                <a href="/skoda-octavia-2017-automata-IDWK8295/">
+                                                                        <img class="card-img-top" src="./img/bmw x6.jpg" alt="Skoda Octavia image"></a>
+                                    
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="h6 pl-2 pr-2" style="font-size:1em;">
+                                        <a href="/skoda-octavia-2017-automata-IDWK8295/">BMW X6 XDrive40d </a>
+                                    </h4>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-calendar-alt  mr-2" style="color: #77838f; width: 16px; text-align: center;"></span> an</div>
+                    
+                                        <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">2017</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-sm-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-road  mr-2" style="color: #77838f; width: 16px;"></span> rulaj</div>
+                    
+                                        <div class="col-lg-6 col-sm-6 col-6 text-right" style="font-weight: 500;">196.000 km</div>
+                                    </div>
+                                    <div class="row pl-2 pr-2">
+                                        <div class="col-lg-6 col-6 text-left" style="font-size:0.9em; color: #636363;"><span class="fas fa-box  mr-2" style="color: #77838f; width: 16px;"></span> cilindree</div>
+                    
+                                        <div class="col-lg-6 col-6 text-right" style="font-weight: 500;">1968cc</div>
+                                    </div>
+                    
+                    
+                    
+                    
+                                                                    <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold; border-top:1px solid #d4d4d4; margin-top:10px; padding-top:10px; padding-bottom: 10px;">
+                    
+                                                                                    <div class="col-lg-7 col-7">Pret Net</div>
+                                                                                
+                    
+                                            <div class="col-lg-5 col-5 text-right">15.990 Euro</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2" style="font-size: 1em; font-weight: bold;  margin-top:8px; padding-top:10px; padding-bottom: 10px;">
+                    
+                                                <div class="col-lg-7 col-7"> </div>
+                    
+                    
+                    
+                    
+                                            <div class="col-lg-5 col-5 text-right"> </div>
+                                        </div>
+                    
+                                    
+                    
+                    
+                    
+                    
+                    
+                                    <div class="text-center">
+                                        <a id="btn1" class="btn btn-sm btn-soft-secondary btn-wide transition-3d-hover" href="/skoda-octavia-2017-automata-IDWK8295/">Detalii Masina</a>
+                                    </div>
+                                </div>
+                                <!-- End House Items -->
+                            
+
+
+
+                                 
+                                            <!-- End Popular Properties - Products -->
+    
+    
+    
+                   
+               
+    
+                                        </div>
+    
+    
+                        </div>
+                    </div>
+                </article>
+    
+    
+            </div>
+            </div>
+            </div>
+
+
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <section id="prim2" class="d-block card border-0 mb-5" style="font-size:1.2em;">
+                <div id="prim3" class="card-body p-2 card border-0 shadow-sm mb-3">
+                    <div class="row">
+        
+        
+                         
+                                    <div class="row" style="font-size: 1.2em; font-weight: bold;">
+                                         
+                                        <!--
+                                        <div class="col-lg-6">
+                                            <div class="text-right pr-1">
+                                                <a class="btn btn-sm btn-soft-primary btn-wide transition-3d-hover" href="/public/cars/det/1">Detalii Masina</a>
+                                            </div>
+                                        </div>
+                                        -->
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                                <h4>Descriere Fabricant</h4>  
+                            
+                            
+                                <p style="text-align:left; margin: 12px;"> Mercedes-Benz GLC 300 din anul 2017 este un SUV premium de clasa medie. Acesta este echipat cu un motor turbo de 2.0 litri, care oferă 241 de cai putere și 273 lb-ft de cuplu. Acesta poate accelera de la 0 la 100 km/h în 6.4 secunde și atinge o viteză maximă de 238 km/h.</p>
+                                
+                                <p style="text-align:left; margin: 12px;"> Interiorul vehiculului este dotat cu materiale premium și tehnologii avansate, cum ar fi sistemul de infotainment MBUX cu ecran tactil de 7 inch sau sistemul de asistență pentru șofer cu funcții precum asistența la parcare sau sistemul de recunoaștere a semnelor de circulație.</p>
+                                
+                                <p style="text-align:left; margin: 12px;">GLC 300 din 2017 este disponibil cu o varietate de opțiuni de transmisie, inclusiv transmisia automată de 9 rapoarte sau transmisia 4Matic cu tracțiune integrală. Oferta de siguranță include caracteristici precum sistemul de frânare automată de urgență, asistența la schimbarea benzii sau sistemul de menținere a benzii.
+
+                                    În general, Mercedes-Benz GLC 300 din 2017 este un SUV puternic și luxos, cu o gamă largă de tehnologii avansate și caracteristici de siguranță. Este o alegere excelentă pentru cei care doresc un vehicul premium și confortabil cu o performanță puternică.
+                                    
+                                    
+                                    
+                                    
+                                    </p>
+                            
+                            
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                
+            </section>
+
+    <section id="contact-info-section">
+        <div class="container-fluid p-0 text-light">
+            <div class="row no-gutters" id="contact-info-bg-1">
+                <div class="col-sm-5 offset-sm-1 p-5">
+                    <h2>YOU ARE WELCOME!</h2>
+                    <p>COME ON IN!</p>
+                    <br>
+                    <h4>WEEKDAYS</h4>
+                    <p>08PM -12AM</p>
+                    <br>
+                    <h4>WEEKENDS</h4>
+                    <p>12 PM – 02 AM</p>
+                </div>
+                <div class="col-sm-6 p-5" id="contact-info-bg-2">
+                    <h2>CONTACT</h2>
+                    <br>
+                    <h4>PHONE</h4>
+                    <p>+(000) 111 222 333</p>
+                    <br>
+                    <h4>MAIL</h4>
+                    <p>address@domain.com</p>
+                    <br>
+                    <h4>ADDRESS</h4>
+                    <p>543 TN, doula street NY, New York</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+
+
+    <section id="map-section">
+        <div id="map"> <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2744.140419946354!2d24.535506!3d46.544909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57c84a022c4588e7!2sPacovis%20Rom%C3%A2nia%20S.R.L.!5e0!3m2!1sen!2sus!4v1669635135627!5m2!1sen!2sus" width="1263" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+
+
+
+    <footer id="foot">
+        <div class="container-fluid py-3 text-light">
+            <div class="row">
+                <div class="col-md-5 offset-sm-1 text-left align-self-center">
+                Coffee Shop | © 2020 All rights reserved
+                </div>
+                <div class="col-md-5 text-right">
+                    <a href="#"><img src="img/facebook-icon.png" alt="facebook icon"></a>
+                    <a href="#" class="mx-3"><img src="img/instagram-icon.png" alt="instagram icon"></a>
+                    <a href="#" class="mr-3"><img src="img/twitter-icon.png" alt="twitter icon"></a>
+                    <a href="#"><img src="img/phone-icon.png" alt="phone icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <script>
+        window.addEventListener("load", function() {
+
+
+            let menuBtn = document.getElementById("menu-btn");
+            let mobileMenu = document.getElementById("mobile-menu");
+            let closeBtn = document.getElementById("close-btn");
+
+            menuBtn.addEventListener("click", function() {
+
+                if (mobileMenu.style.display = "none") {
+                    mobileMenu.style.display = "block";
+                }
+
+            });
+
+            closeBtn.addEventListener("click", function() {
+                if (mobileMenu.style.display = "block") {
+                    mobileMenu.style.display = "none";
+                }
+            });
+
+
+
+            ///jQuery alternativa za otvaranje zatvaranje menija
+
+            /*$("#menu-btn, #close-btn").click(function(){
+                $("#mobile-menu").toggle();
+            });*/
+
+
+
+            ////za menu
+
+            let heroSection = document.getElementById("hero-section");
+            let heroSectionHeight = heroSection.clientHeight;
+
+            let header = document.getElementById("header");
+
+
+            document.addEventListener("scroll", function() {
+
+                if (document.documentElement.scrollTop > heroSectionHeight) {
+
+                    if (!header.classList.contains("solid-header")) {
+                        header.classList.add("solid-header");
+                    }
+
+                } else {
+
+                    if (header.classList.contains("solid-header")) {
+                        header.classList.remove("solid-header");
+                    }
+                }
+            });
+
+
+
+            ///jQuery alternativa za menu
+
+            /*$(document).scroll(function () {
+
+                let header = $("#header");
+
+                if ($(this).scrollTop() > $("#hero-section").height()) {
+
+                    if(!header.hasClass("solid-header")) {
+                        $("#header").addClass("solid-header");
+                    }
+                } else {
+                    if (header.hasClass("solid-header")) {
+                        $("#header").removeClass("solid-header");
+                    }
+                }
+
+            });*/
+
+
+
+            /////za mape
+
+            
+        });
+
+        var carousel = document.getElementById("carousel");
+    var hammertime = new Hammer(carousel);
+    
+    hammertime.on("swipeleft", function() {
+      // Go to next slide
+    });
+    
+    hammertime.on("swiperight", function() {
+      // Go to previous slide
+    });
+
+
+    function calculate() {
+    // Get input values
+    var leaseAmount = document.getElementById("leaseAmount").value;
+    var rate = document.getElementById("rate").value;
+    var term = document.getElementById("term").value;
+
+    // Perform calculations
+    var monthlyRate = rate / 12;
+    var monthlyPayment = (leaseAmount + (leaseAmount * monthlyRate * term))/term;
+
+    // Display results
+    document.getElementById("output").innerHTML = "Monthly Payment: $" + monthlyPayment.toFixed(2);
+  }
+    
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+
+    <script src="mail.js"></script>
+
+
+
+</body>
+
+</html>

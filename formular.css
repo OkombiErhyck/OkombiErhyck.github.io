@@ -1,0 +1,288 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/************************************************HEADER*********************************************/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header-logo {
+    height: 24px;
+}
+
+#header{
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius: 40px;
+    background-color: #312423;
+}
+
+
+#header-logo {
+    height: 24px;
+}
+
+header a {
+    margin-left: 32px;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+
+/****************NEW NEW NEW******************/
+
+.solid-header {
+    position: fixed;
+    background-color: #c69572;
+    transition: background-color 0.5s ease;
+}
+
+
+/************************************************HERO SECTION*********************************************/
+
+#hero-section {
+    background-image: url(../img/back\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#hero-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #4133329c;
+    height: 100vh;
+}
+
+#hero-logo {
+    width: 256px;
+    border-radius: 25%;
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    width: 64px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    #hero-section h1 {
+        font-size: 3rem;
+    }
+    #hero-logo {
+        width: 196px;
+    }
+}
+
+
+/************************************************INTRO SECTION*********************************************/
+
+#intro-section {
+    background: #eae7de;
+}
+
+/********************************************card section***************************************************/
+.titlu{
+
+margin-top: 30px;
+margin-bottom: -10px;
+    text-align: center;
+}
+
+
+#card {
+
+    margin: 5%;
+
+    
+}
+
+.p-4{
+background-color: #eae7de;
+
+}
+
+#btn1{
+color: rgb(255, 255, 255);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+margin:15px;
+
+width: 120px;
+height: 40px;
+font-size: large;
+opacity: 0.7;
+  transition: 0.3s;
+  background-color: #312423;
+
+}
+
+#btn1:hover{
+
+color: #f66803;
+opacity: 1;
+
+
+}
+
+
+
+/************************************************ABOUT SECTION*********************************************/
+
+#about-section {
+
+    background: #eae7de;
+
+}
+
+#about-bg-1 {
+    background-image: url(../img/07how-to-buy-anew-car-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 480px;
+}
+
+#about-bg-2 {
+    background-image: url(../img/fresh-beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 640px;
+    min-height: 640px;
+}
+
+
+/************************************************MENU SECTION*********************************************/
+
+#menu-section {
+    background: #eae7de;
+}
+
+
+/************************************************CONTACT SECTION*********************************************/
+
+#contact-info-bg-1 {
+    background: linear-gradient(to right, #36313782, #36313782), url(../img/fxslide5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#contact-info-bg-2 {
+    background-color: #312423a8;
+}
+
+
+/************************************************MAP SECTION*********************************************/
+
+
+/*#map-section {
+    background-image : url(../img/map-demo.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 460px;
+}*/
+
+.googlemap{
+
+    width: 100%;
+}
+#map {
+    height: 480px;
+    width: 100%;
+}
+
+
+/************************************************FOOTER SECTION*********************************************/
+
+footer {
+    background: #312423;
+
+
+}
+
+#foot{
+
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+
+}
+
+/************************************************MOBILE MENU*********************************************/
+
+#mobile-menu {
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    right: 100px;
+    left: 100px;
+    background: #312423;
+    z-index: 2;
+    display: none;
+border-radius: 5%;
+    
+}
+
+#text-menu{
+
+    margin-top: -200px;
+
+
+}
+
+#mobile-menu a {
+    color: white;
+}
+
+#mobile-menu a:hover {
+    color: rgb(175, 171, 171);
+}
+
+#mobile-menu #close-btn {
+    position: absolute;
+    right: 16px;
+    top: 14px;
+}
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+
+
+

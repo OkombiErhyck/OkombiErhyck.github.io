@@ -1,0 +1,999 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+/************************************************HEADER*********************************************/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header-logo {
+    height: 24px;
+
+
+
+    
+}
+
+
+
+
+
+#header{
+  z-index: 1;
+height: 50px;
+    background-color: #312423;
+
+
+    border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius:40px;
+  border-bottom-left-radius: 40px;
+
+}
+
+header a {
+    margin-left: 32px;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+header a:visited {
+    color: white;
+}
+
+#tt1{
+margin-top: -5px
+;
+
+
+}
+
+
+
+
+
+/****************NEW NEW NEW******************/
+
+.solid-header {
+    position: fixed;
+    background-color: #c69572;
+    transition: background-color 0.5s ease;
+}
+
+
+/************************************************HERO SECTION*********************************************/
+
+#hero-section {
+    background-image: url(./mg/q3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-position-y: -180px;
+}
+
+#hero-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #5f535200;
+    height: 100vh;
+}
+
+#hero-logo {
+    width: 256px;
+    border-radius: 25%;
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    width: 64px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    #hero-section h1 {
+        font-size: 3rem;
+    }
+    #hero-logo {
+        width: 196px;
+    }
+}
+
+
+/************************************************INTRO SECTION*********************************************/
+
+#intro-section {
+    background: #eae7de;
+}
+
+/********************************************card section***************************************************/
+.titlu{
+
+margin-top: 30px;
+margin-bottom: -10px;
+    text-align: center;
+}
+#card {
+
+    margin: 5%;
+
+    
+}
+
+#prim {
+background-color: rgba(0, 251, 192, 0.99);
+   
+ 
+
+}
+
+
+
+#s{
+
+color: #68421c;
+
+
+}
+
+
+#prim2{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+margin:15px;
+
+color: rgb(0, 0, 0);
+ background-color: rgb(0, 0, 0);
+}
+
+
+#prim3{
+
+  background-color:#eae7de
+}
+
+
+
+
+
+/************************************************ABOUT SECTION*********************************************/
+
+#about-section {
+
+    background: #eae7de;
+
+}
+
+#about-bg-1 {
+    background-image: url(../img/07how-to-buy-anew-car-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 480px;
+}
+
+#about-bg-2 {
+    background-image: url(../img/fresh-beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 640px;
+    min-height: 640px;
+}
+
+
+/************************************************MENU SECTION*********************************************/
+
+#menu-section {
+    background: #eae7de;
+}
+
+
+/************************************************CONTACT SECTION*********************************************/
+
+#contact-info-bg-1 {
+    background: linear-gradient(to right, #36313782, #36313782), url(img/fxslide5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#contact-info-bg-2 {
+    background-color: #312423a8;
+}
+
+
+/************************************************MAP SECTION*********************************************/
+
+
+/*#map-section {
+    background-image : url(../img/map-demo.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 460px;
+}*/
+
+.googlemap{
+
+    width: 100%;
+}
+#map {
+    height: 480px;
+    width: 100%;
+}
+
+
+/************************************************FOOTER SECTION*********************************************/
+
+footer {
+    background: #312423;
+}
+
+
+/************************************************MOBILE MENU*********************************************/
+#menu-icon{
+
+margin-top: -10px;
+
+
+}
+
+
+#mobile-menu {
+  position: fixed;
+  top: 80px;
+  bottom: 80px;
+  right: 50px;
+  left: 50px;
+  background: #7f624b;
+  z-index: 2;
+  display: none;
+height: auto;
+}
+#text-menu{
+
+  margin-top: -80px;
+  
+  
+      }
+#mobile-menu a {
+  color: rgb(0, 0, 0);
+}
+
+#mobile-menu a:hover {
+  color: rgb(168, 93, 23);
+}
+
+#pret{
+padding-top: 2px;
+background-color:rgb(168, 93, 23);
+border-radius: 5px;
+
+}
+
+
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    
+    position: absolute;
+    top: 31px; /* adjust this value as needed */
+    z-index: 0;
+    overflow: hidden;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 47%;
+    filter: drop-shadow(0 0 0px rgba(0, 0, 0, 0));
+    perspective: 100px;
+    background-color:#eae7de00
+  }
+  
+  .carousel__viewport {
+    position: absolute;
+    top:5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel__slide {
+
+height: 100%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    counter-increment: item;
+  }
+  
+  .carousel__slide:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .carousel__slide:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: rgba(255, 255, 255, 0);
+    font-size: 2em;
+  }
+  
+  .carousel__snapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+    
+  }
+
+  #carousel__slide1{
+
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc1.webp);
+    background-position-y: 0px;
+  }
+  
+  #carousel__slide2{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc2.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide3{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc3.webp);
+    background-position-y: 0px;
+
+  }
+  #carousel__slide4{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc4.webp);
+    background-position-y: 0px;
+  }
+
+  #carousel__slide5{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc5.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide6{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc6.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide7{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc7.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide8{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc8.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide9{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc9.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide10{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc10.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide11{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc11.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide12{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc12.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide13{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/glc13.webp);
+    background-position-y: 0px;
+  }
+  #carousel__slide14{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide15{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide16{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide17{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide18{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  #carousel__slide19{
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: center;
+    background-image: url(./img/Mercedes-Benz-GLC-2019-ALB-SUV-Automata-8376-833753.jpg);
+    background-position-y: 0px;
+  }
+  
+  
+  @media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }
+  
+  .carousel:hover .carousel__snapper,
+  .carousel:focus-within .carousel__snapper {
+    animation-name: none;
+  }
+  
+  .carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 0.1rem;
+    margin-bottom: 10px;
+    height: 0.1rem;
+    background-color: rgb(209, 0, 0);
+    background-clip: content-box;
+    border: 1.15rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }
+  
+  .carousel::before,
+  .carousel::after,
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 41.5%;
+    width: 8rem;
+    height: 17rem;
+    transform: translateY(-50%);
+    border-radius: 40%;
+    font-size: 0;
+    outline: 0;
+  }
+  
+  .carousel::before,
+  .carousel__prev {
+    left: -1rem;
+  }
+  
+  .carousel::after,
+  .carousel__next {
+    right: -1rem;
+  }
+  
+  .carousel::before,
+  .carousel::after {
+    content: '';
+    z-index: 1;
+    background-color: rgba(104, 104, 104, 0);
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  .carousel::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+  
+  .carousel::after {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+
+
+#back{
+
+  background-color: rgb(23, 23, 62);
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+margin-top: 2px;
+}
+
+ #back:hover {
+  background-color: rgb(80, 106, 255);
+transition: 0.5s;
+
+
+
+}
+
+
+#h2{text-align: center;
+
+
+text-align: center;
+
+}
+
+
+
+
+
+.loan-calculator {
+  font-family: "Roboto", sans-serif;
+  width: 450px;
+  
+  margin: 24px auto;
+  background: #fff;
+  box-shadow: 0 12px 50px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: #14213d;
+  overflow: hidden;
+}
+
+.loan-calculator,
+.loan-calculator * {
+  box-sizing: border-box;
+}
+
+.loan-calculator .top {
+  background: #14213d;
+  color: #fff;
+  padding: 32px;
+}
+
+.loan-calculator .top h2 {
+  margin-top: 0;
+}
+
+.loan-calculator form {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.loan-calculator .title {
+  margin-bottom: 16px;
+}
+
+.loan-calculator form input {
+  font-size: 20px;
+  padding: 8px 24px;
+  width: 100%;
+}
+
+.loan-calculator .result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loan-calculator .result .left {
+  width: 100%;
+  padding: 8px 32px;
+}
+
+.loan-calculator .left h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.loan-calculator .result .value {
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+}
+
+.loan-calculator .result .value::before {
+  content: "$";
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 6px;
+  opacity: 0.4;
+}
+
+.loan-calculator .calculate-btn {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 24px 0;
+}
+
+.loan-calculator .right {
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .loan-calculator {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .loan-calculator form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .loan-calculator .result {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+#btn1{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+  margin:15px;
+  
+  width: 120px;
+  height: 40px;
+  font-size: large;
+  opacity: 0.7;
+    transition: 0.3s;
+    background-color: #312423;
+  
+  }
+  
+  #btn1:hover{
+  
+  color: #f66803;
+  opacity: 1;
+  
+  
+  }
+  #card {
+
+    margin: 5%;
+
+    
+}
+.p-4{
+  background-color: #eae7de;
+  
+  }
+
+
+  #bgc{
+background-color: #b55613;
+
+
+  }
+
+  #bgc2{
+
+
+
+
+    background-color: #c69572;
+  }
+
+
+
+#bgc:hover{
+
+transition: 0.3s;
+color: #fefefe;
+
+}
+
+
+#bgc3{
+
+background-color: #d26c07;
+
+
+}
+
+
+
+
+.collapse {
+  transition: height 1s; /* changes the transition duration to 1 second */
+}
+
+
+
+
+#more{
+text-align: center;
+  background-color: rgb(25, 29, 66); /* sets the background color of the button */
+  color: white; /* sets the text color of the button */
+  padding: 10px 25px; /* sets the padding of the button */
+  border: none; /* removes the border of the button */
+  border-radius: 5px; /* adds rounded corners to the button */
+  font-size: 24px; 
+
+
+}
+
+.card{
+
+
+border: #000000;
+
+}
+
+
+.card-header{
+  text-align: center;
+  background-color: #c69572;
+}
+
+
+#collapseOne{
+
+
+  background-color: #c69572;
+
+}
+
+#price{
+
+background-color: #b55613;
+border-top-left-radius:3px;
+  border-top-right-radius: 3px;
+
+}
+
+#price2{
+
+
+  background-color: #313131;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  }
+
+
+
+
+#info2{
+
+
+background-color: #b5571300;
+
+}
+
+
+#back1{
+
+background-color: #0aa470;
+color: #ffffff;
+
+ margin-top: 2px;
+  font-size: 18px;
+  border: none;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+#foot{
+
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+
+}
+
+
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

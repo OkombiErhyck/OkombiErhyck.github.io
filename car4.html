@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadrupo Automobile</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./car4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/3fb0bac4eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    
+
+
+
+    
+
+
+
+ 
+
+
+
+    <section id="carname">
+
+        <div   class="position-relative bg-white text-center z-index-2 mx-lg-auto menu_det" >
+            <div id="price"  class="container"> <h2 class="h_det" style="color:#e26c18; font-weight: bold; text-align: left; margin-bottom:0px;">Mercedes-Benz GLC 300</h2></div>
+            <ul id="price2" class="nav nav-classic  container lazyload" id="pills-tab" role="tablist" style="border:none;">
+    <!--
+                <li class="nav-item">
+                    <a class="nav-link font-weight-medium  " >
+                        <div class="d-md-flex justify-content-md-center align-items-md-center">
+    
+                           Mercedes-Benz E220
+                        </div>
+                    </a>
+                </li>
+    -->
+                
+    
+                <li class="nav-item">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-one-tabz"  href="#carousel__slide12" role="tab" aria-controls="pills-one" aria-selected="true">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                            Exterior
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a     class="a_menu_det nav-link font-weight-medium" id="pills-two-tabz"   href="#interior1" role="tab" aria-controls="pills-two" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);" >
+    
+                            Interior
+                        </div>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-three-tab"  href="#porbagaj" role="tab" aria-controls="pills-three" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                           Optiuni
+                        </div>
+                    </a>
+                </li>
+    
+    
+                            <li class="nav-item ">
+                    <a class="a_menu_det nav-link font-weight-medium" id="pills-four-tab"  href="#video" role="tab" aria-controls="pills-four" aria-selected="false">
+                        <div class="d-md-flex justify-content-md-center align-items-md-center" style="color:rgb(202, 202, 202);">
+    
+                           Video
+                        </div>
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+        <!-- End Nav Classic -->
+    <br>
+        <!-- Icon Blocks Section -->
+        <div class="price_menu">
+        <div class="container space-1 " id="info2" >
+            <div class="row ">
+    
+                <div class="col-lg-4 col-sm-6  d-none  d-sm-block">
+               <button id="back" onclick="window.history.go(-1)"  class="btn btn-soft-dark btn-wide transition-3d-hover" style="cursor: pointer;" >Inapoi la lista</button>
+    
+                   
+    
+    
+                </div>
+    
+                <div  class=" col-lg-4 col-sm-12 text-center">
+    
+                                    <h4 class="h4" style="line-height: 1em;">
+                                                                              40.990 €
+                                                              <br><small style="font-size:0.56em;">Omologare R.A.R.*: 200€ + TVA</small>                                                                                                     
+    
+                         <br><small style="font-size:0.56em;">TVA deductibil pe factura</small> 
+                    
+    
+                    </h4>
+                                    
+                    
+     
+    
+    
+                
+                </div>
+    
+                <div class=" col-6 col-lg-4 col-sm-6 d-block  d-sm-none  no-padding-right">
+                    <button  id="back" class="btn btn-soft-dark btn-wide transition-3d-hover" style="cursor: pointer;" onclick="goBack()">Inapoi la lista</button>
+                    <script>
+                        function goBack() {
+                            window.history.go(-1);
+                        }
+                    </script>
+                </div>
+    
+    
+    
+    
+                <div class="col-sm-6 col-lg-4 col-xs-6 col-6 text-right no-padding-left">
+                                    <form method="post">
+                        <input type="hidden" name="id_car_garaj" value="8376">
+                    <input id="back1" type="submit" value="Share" name="add_garaj"  class="btn btn btn-wide transition-3d-hover" href="#" >
+                    </form>
+                                    <div class="row mt-3 d-none  d-xl-block">
+    
+                        
+                    </div>
+                </div>
+    
+            </div>
+            <div  class="row mt-3 d-block d-sm-none pb-2">
+    
+                
+            </div>
+    
+    
+            
+        </div>
+        <!-- End Icon Blocks Section -->
+        </div>
+    
+    </section>
+    
+
+    <div  class="container mt-5">
+        <div class="row">
+    
+            <div class="col-lg-7">
+    
+        <article class="d-block card border-0 mb-5" style="font-size:1.2em; color: #000000;">
+            <div id="bgc3" class="card-body p-2 card border-0 shadow-sm mb-3">
+                <div class="row">
+    
+    
+                    <div class="col-sm-12">
+                        <div class="pt-1 pr-2 pl-2">
+    
+                            <div class="mb-2">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h2 class="h5 mt-2 pl-2 pr-2">
+                                            Mercedes-Benz GLC 300                                   </h2>
+                                    </div>
+                                    <div class="col-lg-4 mt-1">
+                                        <h5>  <span class="badge badge-dark badge-primary ml-1" style="float: right;"> Livrare Imediata</span></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">id</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">ST8376</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">an</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">2019</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">rulaj</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">109.300 km</div>
+                                        </div>
+                                                                                <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">cilindree</div>
+    
+                                                <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">1950cc</div>
+                                            </div>
+                                        
+                                                                                <div class="row pl-2 pr-2">
+                                                <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">norma euro</div>
+    
+                                                <div class="col-lg-6 col-6 text-right" style="font-size:0.9em;font-weight: 500;">euro 6</div>
+                                            </div>
+                                                                            <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; ">culoare</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">alb</div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="col-lg-6">
+    
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">transmisie</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.9em; font-weight: 500;">automata</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-7 col-7 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">tractiune</div>
+    
+                                            <div class="col-lg-5 col-5 text-right" style="font-size:0.8em;font-weight: 500;">4x4</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-5 col-7 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">combustibil</div>
+    
+                                            <div class="col-lg-7 col-5 text-right" style="font-size:0.8em;font-weight: 500;">motorina </div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-6 col-6 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">putere</div>
+    
+                                            <div class="col-lg-6 col-6 text-right" style="font-size:0.8em;font-weight: 500;">245 cp</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-5 col-5 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">caroserie</div>
+    
+                                            <div class="col-lg-7 col-7 text-right" style="font-size:0.8em;font-weight: 500;">SUV</div>
+                                        </div>
+                                        <div class="row pl-2 pr-2">
+                                            <div class="col-lg-3 col-3 text-left text-muted lead" style="font-size:0.80em; color: #f1f1f1;">VIN</div>
+    
+                                            <div class="col-lg-9 col-9 text-right" style="font-size:0.80em;font-weight: 500;">WDC2539191F742810</div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="row"  style="font-size: 1.2em; font-weight: bold;">
+    
+                                    <!--
+                                    <div class="col-lg-6">
+                                        <div class="text-right pr-1">
+                                            <a class="btn btn-sm btn-soft-primary btn-wide transition-3d-hover" href="/public/cars/det/1">Detalii Masina</a>
+                                        </div>
+                                    </div>
+                                    -->
+                                </div>
+    
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+                         
+    
+                <article class="d-block card border-0 mb-7" style="font-size:1.2em;">
+                    <div id="bgc2" class="card-body p-2 card border-0 ">
+                        <div class="row">
+    
+    
+                            <div class="col-sm-12">
+                                <div class="pt-1 pr-2 pl-2">
+    
+                                    <div class="mb-2">
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                
+                                            </div>
+    
+                                        </div>
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                              <div class="card-header" id="headingOne">
+                                                <h2 class="0">
+                                                  <button id="more" class="btn btn-link text-decoration-none type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Vizualizeaza Dotarile Aici
+                                                  </button>
+                                                </h2>
+                                              </div>
+                                          
+                                              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                        <div class="row" style="font-size:0.8em; color: #000000;">
+                                            <!-- Listing - List of Details -->
+                                            <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input" style="display:none;" readonly checked>
+                                           
+                                        </div>
+                                    </div>
+                                  </div>
+                                            <!-- End Listing - List of Details -->
+                                        </div>
+    
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+    
+    
+    
+                
+    
+    
+    
+            </div>
+            <div class="col-lg-5">
+    
+    
+    
+    
+                <!--   <div class="container calc"> -->
+                      <div class=" calc">
+                        <div class="loan-calculator">
+                            <div class="top text-muted lead">
+                              <h2>Calculator de Credit</h2>
+                      
+                              <form id="fr" action="#">
+                                <div class="group">
+                                  <div class="title">Suma</div>
+                                  <input type="text" value="48778" class="loan-amount" />
+                                </div>
+                      
+                                <div class="group">
+                                  <div class="title">Dobanda</div>
+                                  <input type="text" value="8.5" class="interest-rate" />
+                                </div>
+                      
+                                <div class="group">
+                                  <div class="title">Rate</div>
+                                  <input type="text" value="60" class="loan-tenure" />
+                                </div>
+                              </form>
+                            </div>
+                      
+                            <div class="result">
+                              <div class="left">
+                                <div class="loan-emi">
+                                  <h3>Plata Lunara</h3>
+                                  <div class="value">123</div>
+                                </div>
+                      
+                                <div class="total-interest">
+                                  <h3>Total Dobanda</h3>
+                                  <div class="value">1234</div>
+                                </div>
+                      
+                                <div class="total-amount">
+                                  <h3>Total de Plata</h3>
+                                  <div class="value">12345</div>
+                                </div>
+                      
+                                <button class="calculate-btn">Calculate</button>
+                              </div>
+                      
+                              <div class="right">
+                                <canvas id="myChart" width="400" height="400"></canvas>
+                              </div>
+                            </div>
+                          </div>
+                                                            </div>
+    
+    
+   
+        <div class="   " >
+    
+            <label class=" "  style="font-size:0.8em;"><br>
+                *Acest simulator are caracter informativ. Pot exista alte costuri aditionale.
+            </label>
+        </div>
+    
+    
+                                                                
+    
+    
+    
+    
+    
+    
+               
+    
+                        </div>
+                    </div>
+                </article>
+    
+    
+            </div>
+            </div>
+            </div>
+
+
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            
+    
+
+
+
+
+    
+
+
+   
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <script>
+        window.addEventListener("load", function() {
+
+
+            let menuBtn = document.getElementById("menu-btn");
+            let mobileMenu = document.getElementById("mobile-menu");
+            let closeBtn = document.getElementById("close-btn");
+
+            menuBtn.addEventListener("click", function() {
+
+                if (mobileMenu.style.display = "none") {
+                    mobileMenu.style.display = "block";
+                }
+
+            });
+
+            closeBtn.addEventListener("click", function() {
+                if (mobileMenu.style.display = "block") {
+                    mobileMenu.style.display = "none";
+                }
+            });
+
+
+
+            ///jQuery alternativa za otvaranje zatvaranje menija
+
+            /*$("#menu-btn, #close-btn").click(function(){
+                $("#mobile-menu").toggle();
+            });*/
+
+
+
+            ////za menu
+
+            let heroSection = document.getElementById("hero-section");
+            let heroSectionHeight = heroSection.clientHeight;
+
+            let header = document.getElementById("header");
+
+
+            document.addEventListener("scroll", function() {
+
+                if (document.documentElement.scrollTop > heroSectionHeight) {
+
+                    if (!header.classList.contains("solid-header")) {
+                        header.classList.add("solid-header");
+                    }
+
+                } else {
+
+                    if (header.classList.contains("solid-header")) {
+                        header.classList.remove("solid-header");
+                    }
+                }
+            });
+
+
+
+            ///jQuery alternativa za menu
+
+            /*$(document).scroll(function () {
+
+                let header = $("#header");
+
+                if ($(this).scrollTop() > $("#hero-section").height()) {
+
+                    if(!header.hasClass("solid-header")) {
+                        $("#header").addClass("solid-header");
+                    }
+                } else {
+                    if (header.hasClass("solid-header")) {
+                        $("#header").removeClass("solid-header");
+                    }
+                }
+
+            });*/
+
+
+
+            /////za mape
+
+            
+        });
+
+        var carousel = document.getElementById("carousel");
+    var hammertime = new Hammer(carousel);
+    
+    hammertime.on("swipeleft", function() {
+      // Go to next slide
+    });
+    
+    hammertime.on("swiperight", function() {
+      // Go to previous slide
+    });
+
+
+    function calculate() {
+    // Get input values
+    var leaseAmount = document.getElementById("leaseAmount").value;
+    var rate = document.getElementById("rate").value;
+    var term = document.getElementById("term").value;
+
+    // Perform calculations
+    var monthlyRate = rate / 12;
+    var monthlyPayment = (leaseAmount + (leaseAmount * monthlyRate * term))/term;
+
+    // Display results
+    document.getElementById("output").innerHTML = "Monthly Payment: $" + monthlyPayment.toFixed(2);
+  }
+    //////share
+
+
+
+
+    const shareButton = document.getElementById("back1");
+
+// Check if Web Share API is supported
+if (navigator.share) {
+  shareButton.addEventListener("click", () => {
+    navigator.share({
+      title: "Example Title",
+      text: "Example Text",
+      url: "https://example.com"
+    })
+      .then(() => console.log("Share was successful."))
+      .catch((error) => console.log("Error sharing:", error));
+  });
+} else {
+  console.log("Web Share API not supported.");
+}
+
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+
+    <script src="mail.js"></script>
+
+
+
+</body>
+
+</html>
